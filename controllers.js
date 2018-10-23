@@ -24,18 +24,8 @@ exports.savetask = function (req, res) {
 }
 
 exports.editTask = function (req, res) {
-    models.searchTaskbyid(req.query._id, function (objInfo) {
-        // views.edittaskForm(objInfo, function(){
-        //     res.send(form)
-        // })
-        var form = views.edittaskForm(objInfo)
-        // var form = "<form action='/saveChanges' method='post'>" +
-        // "<input type='hidden' name='_id' value='"+req.query._id+"'>"+
-        // "Task <input  type='text' name='name' value = '"+ objInfo.name +"' > <br><br>" +
-        // "Deadline <input  type='date' name='deadline' value = '"+ objInfo.deadline +"'> <br><br>" +
-        // "Progress Percentage <input  type='decimal' name='progress' value = '"+ objInfo.progress +"' > <br><br>" +
-        // "<input type='submit' value='Save'/>" +
-        // "<button onclick=\"location.href = '/';return false;\">Cancel</button></form>"
+    models.searchTaskbyid(req.query._id, function (objInfo) {        
+        var form = views.edittaskForm(objInfo)        
         res.send(form)
     })
 }

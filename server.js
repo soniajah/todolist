@@ -11,7 +11,6 @@ const models = require('./models.js')
 var app = express()
 
 app.get('/', controllers.home)
-// app.get('/listoftasks', controllers.listoftasks)
 app.get('/addtask', controllers.addtask)
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
