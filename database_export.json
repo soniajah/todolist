@@ -1,0 +1,10 @@
+{"_id":{"$oid":"5bc8c79941d0e7073094dcbe"},"name":"shopping","deadline":{"$date":{"$numberLong":"1539993600000"}}}
+{"_id":{"$oid":"5bcd9b410e98f0309458e1af"},"id":{"$numberInt":"4"},"name":"task2","deadline":"2018-11-29","progress":"0.50"}
+{"_id":{"$oid":"5bcd9be8df34723df48b207d"},"id":{"$numberInt":"4"},"name":"task3","deadline":"2018-11-29","progress":"0.0"}
+{"_id":{"$oid":"5bcd9c4aa219960cdcaeb0e3"},"id":{"$numberInt":"4"},"name":"task4","deadline":"2018-11-29","progress":"0.0"}
+{"_id":{"$oid":"5bcd9c8d474f294384ec7f9f"},"id":{"$numberInt":"4"},"name":"task5","deadline":"2018-11-29","progress":"0.0"}
+{"_id":{"$oid":"5bcda64dadcbf843d0ed38c8"},"id":{"$numberInt":"5"},"name":"task 6","deadline":"2018-10-24","progress":"0.95"}
+{"_id":{"$oid":"5bcda7b5bc154213c0ee2a37"},"id":{"$numberDouble":"0.49005023402118986"},"name":"task 7","deadline":"2018-10-24","progress":"0.9"}
+{"_id":{"$oid":"5bcda8675d860548ecca3c86"},"id":{"$numberDouble":"0.5148652582170494"},"name":"task 8","deadline":"2018-10-31","progress":"0.99"}
+{"_id":{"$oid":"5bcda9271c8a174460d47251"},"id":{"$numberDouble":"0.9465217915926714"},"name":"task 9","deadline":"2018-10-29","progress":"0.5"}
+{"_id":{"$oid":"5bcdaa697f9ed92a10511792"},"id":{"$numberDouble":"0.3041192866850295"},"name":"task 10","deadline":"","progress":""}
